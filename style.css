@@ -3,7 +3,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     background-color: #1F2937;
-    font-family: monospace;
+    font-family:'Roboto', sans-serif;
+
 }
 
 /* Header Section */
@@ -29,7 +30,7 @@ ul {
     gap: 18px;
 }
 
-a, .hero_description {
+a, .hero_description{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -63,7 +64,7 @@ h1{
 
 .hero_btn {
     color: white;
-    font-size:large;
+    font-size:medium;
     font-weight: bold;
     background-color: #3882F6;
     padding: 10px 15px;
@@ -117,5 +118,49 @@ h1{
 
 .quote_author {
     text-align: right;
+    font-weight: bold;
+}
+
+/* Call to action section */
+
+.white_background
+{
+    background-color: #ffffff;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.call_to_action {
+    margin: 12px;
+    width: 80%;
+    border-radius: 12px;
+    background-color: #3882F6;
+    display: flex;
+    padding: 18px;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.call_button {
+    color: white;
+    border-color: #ffffff;
+    font-size:medium;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+
+.main_content, .main_content{
+    color: #E5E7EB;
+}
+
+.main_content p {
+    font-size: 18px;
+}
+
+.h2 {
+    font-size: 24px;
     font-weight: bold;
 }
