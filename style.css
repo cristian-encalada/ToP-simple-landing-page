@@ -95,8 +95,12 @@ h1{
 }
 
 .img_content img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover; 
     /* border: 5px solid; */
-    border-color: #3882F6;
+    /* border-color: #3882F6; */
+    border-radius: 10px; 
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -109,7 +113,8 @@ h1{
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
-    padding: 18px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .quote_text {
@@ -119,6 +124,7 @@ h1{
 .quote_author {
     text-align: right;
     font-weight: bold;
+    font-size: 24px;
 }
 
 /* Call to action section */
@@ -163,4 +169,14 @@ h1{
 .h2 {
     font-size: 24px;
     font-weight: bold;
+}
+
+/* Footer section */
+.footer {
+    padding: 18px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+
 }
