@@ -102,3 +102,20 @@ h1{
 .img_content p {
     text-align: center;
 }
+
+/* Quote section */
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 18px;
+}
+
+.quote_text {
+    font-style: italic;
+}
+
+.quote_author {
+    text-align: right;
+    font-weight: bold;
+}
