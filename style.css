@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 
-.logo {
+.logo, .hero h1{
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
@@ -29,8 +29,36 @@ ul {
     gap: 18px;
 }
 
-a {
+a, .hero_description {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* Hero section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 18px;
+}
+
+.hero_content {
+    padding: 18px;
+    flex: 1;
+}
+
+.hero_img {
+    padding: 18px;
+    flex: 1;
+}
+
+.hero_btn {
+    color: white;
+    font-size:large;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 10px 15px;
+    border-radius: 12px;
 }
